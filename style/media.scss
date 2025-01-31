@@ -1,0 +1,27 @@
+@media screen and (max-width: 874px) {
+    main {
+        section {
+            &:first-child {
+                display: none;
+            }
+        }
+    }
+
+    footer {
+        margin-top: 50px;
+
+        div {
+            &:first-child {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 436px) {
+    .borda {
+        border: none;
+    }
+}

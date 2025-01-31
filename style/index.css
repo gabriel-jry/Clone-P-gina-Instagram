@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@font-face {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Segoe UI Regular"), url("../fonts/Segoe/ UI.woff") format("woff");
+}
+.roboto {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #000000;
+}
+
+main {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+}
+main section:first-child {
+  position: relative;
+}
+main section:first-child div {
+  background-image: url("../imgs/Smartphone/screenshot4.png");
+  width: 250px;
+  height: 544px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 26px;
+  left: 156px;
+}
+main section:last-child {
+  width: 350px;
+  position: relative;
+}
+main section:last-child .logo {
+  height: 133px;
+  display: flex;
+}
+main section:last-child .logo div {
+  background-image: url("../imgs/login/instagram.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  width: 175px;
+  height: 51px;
+  margin: auto;
+}
+main section:last-child form {
+  position: absolute;
+  left: 50px;
+  display: block;
+}
+main section:last-child form input {
+  margin: 0 0 5px 0;
+  width: 250px;
+  height: 20px;
+  background-color: #121212;
+  border: 1px solid #555555;
+  padding: 9px 0 7px 8px;
+}
+main section:last-child form input:focus {
+  outline: none;
+  color: #E0F1FF;
+}
+main section:last-child form input[type=button] {
+  margin-top: 5px;
+  background-color: #0069AD;
+  color: #E0F1FF;
+  border-radius: 8px;
+  height: 100%;
+  width: 260px;
+  border: none;
+  text-align: center;
+}
+main section:last-child .linha {
+  position: relative;
+  top: 160px;
+  left: 50px;
+  display: flex;
+}
+main section:last-child .linha p {
+  font-weight: 600;
+  font-size: 13px;
+  color: #9DA3A8;
+  position: absolute;
+  top: -37px;
+  left: 125px;
+  padding: 15px;
+  transform: translate(-50%);
+  z-index: 1;
+  background-color: #000000;
+}
+main section:last-child .linha div {
+  position: absolute;
+  width: 250px;
+  background-color: #262626;
+  height: 1px;
+  z-index: 0;
+}
+main section:last-child a {
+  height: 20px;
+  text-decoration: none;
+}
+
+.principal {
+  height: 420px;
+}
+
+.secundaria {
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 10px;
+  height: 64px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secundaria p {
+  color: #E0F1FF;
+}
+.secundaria a {
+  color: #0095E7;
+}
+
+.borda {
+  border: 1px solid #363636;
+  border-radius: 1px;
+}
+
+.link_1 {
+  font-weight: 600;
+  font-size: 14px;
+  position: absolute;
+  top: 330px;
+  left: 85px;
+  display: inline-flex;
+  align-items: center;
+  color: #258CDE;
+}
+.link_1 img {
+  height: 100%;
+  margin-right: 10px;
+}
+
+.link_1:hover {
+  color: #E0F1FF;
+}
+
+.link_2 {
+  font-weight: 400;
+  font-size: 14px;
+  position: absolute;
+  top: 375px;
+  left: 120px;
+  color: #E0F1FF;
+}
+
+.placeholder_hiden {
+  display: none;
+  position: absolute;
+  top: -7px;
+  color: #8d8d8d;
+  font-size: 10px;
+  margin-left: 9px;
+}
+.placeholder_hiden p {
+  margin: 0;
+}
+
+.download {
+  width: 350px;
+  text-align: center;
+  color: #E0F1FF;
+  font-weight: 400;
+  font-size: 14px;
+}
+.download img {
+  height: 37px;
+}
+
+footer {
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  color: #9C9C9C;
+}
+footer a {
+  color: #9C9C9C;
+  margin: 0px 5px;
+  font-size: 12px;
+  text-decoration: none;
+}
+footer select {
+  margin-top: 10px;
+  margin-bottom: 85px;
+  margin-right: 20px;
+  background-color: #000000;
+  border: none;
+  color: #9C9C9C;
+}
+footer option {
+  background-color: white;
+  color: #000000;
+}
+footer div:last-child {
+  display: inline-flex;
+}
+footer div:last-child p {
+  margin: 10px;
+}/*# sourceMappingURL=index.css.map */
